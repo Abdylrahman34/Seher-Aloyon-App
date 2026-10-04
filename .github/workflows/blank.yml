@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: "SH g"
     steps:
     - uses: actions/checkout@v4
 
@@ -17,8 +20,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Set up Gradle
+      uses: gradle/actions/setup-gradle@v3
+
+    - name: Generate Wrapper if missing
+      run: |
+        if [ ! -f "gradlew" ]; then
+          gradle wrapper
+        fi
+        chmod +x gradlew
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
@@ -26,5 +36,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: app-debug
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: MaisonAster-APK
+        path: "SH g/app/build/outputs/apk/debug/app-debug.apk"
