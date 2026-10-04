@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616859550320",
+    "project_id": "sehre-aloyon",
+    "storage_bucket": "sehre-aloyon.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616859550320:android:adb1f5652d1f5889f9eab5",
+        "android_client_info": {
+          "package_name": "com.aistudio.maisonaster.kpxqza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzbpop8M7-DcsDx7Whf3GzR19H-R2qTsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Golden Star / Aster Petals -->
+        <!-- Center Gem Diamond -->
+        <path
+            android:pathData="M54,34 L60,48 L74,54 L60,60 L54,74 L48,60 L34,54 L48,48 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:angle="45"
+                    android:endColor="#FFE29F"
+                    android:startColor="#D4AF37"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+        <!-- Diagonal Star Petals -->
+        <path
+            android:pathData="M54,42 L58,50 L66,54 L58,58 L54,66 L50,58 L42,54 L50,50 Z"
+            android:fillColor="#FFF6D6" />
+        <!-- Alluring Eye Curve (Seher Aloyon motif) -->
+        <path
+            android:pathData="M32,54 C38,42 70,42 76,54 C70,66 38,66 32,54 Z"
+            android:strokeWidth="2.5"
+            android:strokeColor="#E8C362" />
+        <!-- Eye pupil / inner jewel sparkle -->
+        <path
+            android:pathData="M54,50 A4,4 0 1,0 54,58 A4,4 0 1,0 54,50"
+            android:fillColor="#FFE8A3" />
+        <!-- Outer Crown / Aster Halo Sparks -->
+        <path
+            android:pathData="M54,26 L55.5,31 L54,30 L52.5,31 Z M54,78 L55.5,83 L54,82 L52.5,83 Z M26,54 L31,55.5 L30,54 L31,52.5 Z M82,54 L87,55.5 L86,54 L87,52.5 Z"
+            android:fillColor="#FFDF78" />
+    </group>
+</vector>

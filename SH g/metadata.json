@@ -1,0 +1,8 @@
+{
+  "name": "Seher Aloyon",
+  "description": "Luxury boutique and beauty lounge showcase with secure username-based Firebase authentication, catalog browsing, appointment booking, and order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
